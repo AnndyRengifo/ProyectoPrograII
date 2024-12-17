@@ -6,7 +6,7 @@ import javax.swing.*;
 import javax.swing.event.*;
 import service.DatabaseManager;
 import utils.*;
-import view.panel.pinturas.GestionPinturasPanel;
+import view.panel.pinturaPanel.GestionPinturasPanel;
 
 public class AddPinturaPanel extends JPanel {
     private final JTextField tfTitulo, tfAutor, tfAnio, tfDescripcion, tfUbicacion, tfCodigoBarras;

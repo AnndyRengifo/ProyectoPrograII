@@ -4,7 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 import models.Pintura;
 import service.*;
-import view.panel.pinturas.GestionPinturasPanel;
+import view.panel.pinturaPanel.GestionPinturasPanel;
 
 public abstract class FormularioPintura extends JDialog {
     private Pintura pintura;

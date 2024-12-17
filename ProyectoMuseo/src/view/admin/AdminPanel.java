@@ -6,8 +6,8 @@ import javax.swing.border.*;
 import service.DatabaseManager;
 import utils.*;
 import view.panel.*;
-import view.panel.pinturas.GestionPinturasPanel;
-import view.panel.usuarios.GestionUsuarioPanel;
+import view.panel.pinturaPanel.GestionPinturasPanel;
+import view.panel.usuarioPanel.GestionUsuarioPanel;
 
 /**
  * Panel de administración que contiene botones para gestionar usuarios, pinturas y salir de la sesión.

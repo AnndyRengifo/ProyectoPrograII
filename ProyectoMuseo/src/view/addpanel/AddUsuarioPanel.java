@@ -5,7 +5,7 @@ import java.awt.*;
 import javax.swing.*;
 import service.DatabaseConnection;
 import utils.*;
-import view.panel.usuarios.GestionUsuarioPanel;
+import view.panel.usuarioPanel.GestionUsuarioPanel;
 
 public class AddUsuarioPanel extends JPanel {
 

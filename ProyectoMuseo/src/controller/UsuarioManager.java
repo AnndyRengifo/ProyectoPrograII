@@ -3,7 +3,7 @@ package controller;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import model.Usuario;
+import models.Usuario;
 import service.DatabaseConnection;
 
 /**
