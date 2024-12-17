@@ -1,18 +1,17 @@
-## Getting Started
+# ProyectoMuseo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**ProyectoMuseo** es una aplicación de gestión para museos que permite a los administradores gestionar información sobre pinturas y usuarios, y a los visitantes explorar las exposiciones mediante un sistema de códigos de barras. La aplicación utiliza una base de datos SQLite para almacenar la información del museo.
 
-## Folder Structure
+## Descripción
 
-The workspace contains two folders by default, where:
+Este proyecto es una aplicación de escritorio en Java diseñada para gestionar la información de un museo de arte. Los roles de usuario incluyen:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Visitante**: Escanea códigos de barras de pinturas y ve información sobre ellas.
+- **Supervisor/Administrador**: Gestiona la base de datos, como añadir o modificar pinturas y usuarios.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Características principales
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Gestión de pinturas (agregar, modificar, eliminar).
+- Gestión de usuarios (agregar, modificar, eliminar).
+- Escaneo de códigos de barras para identificar pinturas.
+- Interfaz gráfica amigable para usuarios y administradores.
